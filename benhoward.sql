@@ -12,61 +12,61 @@ INSERT INTO instrument_album (album_id, guitar, bass, drums) VALUES
   (@album_id, 't', 't', 't');
 
 INSERT INTO song (name, duration) VALUES
-  ('Old Pine','5:27');
+  ('Old Pine','00:05:27');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('Diamonds','4:07');
+  ('Diamonds','00:04:07');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('The Wolves','5:09');
+  ('The Wolves','00:05:09');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('Everything','4:46');
+  ('Everything','00:04:46');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('Only Love','4:09');
+  ('Only Love','00:04:09');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('The Fear','4:20');
+  ('The Fear','00:04:20');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('Keep Your Head Up','4:22');
+  ('Keep Your Head Up','00:04:22');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('Black Flies','6:22');
+  ('Black Flies','00:06:22');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('Gracious','4:57');
+  ('Gracious','00:04:57');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('Promise','6:24');
+  ('Promise','00:06:24');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
@@ -81,61 +81,61 @@ INSERT INTO instrument_album (album_id, piano, guitar, bass, drums) VALUES
   (@album_id, 't', 't', 't', 't');
 
 INSERT INTO song (name, duration) VALUES
-  ('Small Things','5:43');
+  ('Small Things','00:05:43');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('Rivers in Your Mouth','5:12');
+  ('Rivers in Your Mouth','00:05:12');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('I Forget Where We Were','4:43');
+  ('I Forget Where We Were','00:04:43');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('In Dreams','3:34');
+  ('In Dreams','00:03:34');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('She Treats Me Well','5:18');
+  ('She Treats Me Well','00:05:18');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('Time Is Dancing','6:49');
+  ('Time Is Dancing','00:06:49');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('Evergreen','4:05');
+  ('Evergreen','00:04:05');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('End of the Affair','7:46');
+  ('End of the Affair','00:07:46');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('Conrad','6:09');
+  ('Conrad','00:06:09');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
 
 INSERT INTO song (name, duration) VALUES
-  ('All Is Now Harmed','5:03');
+  ('All Is Now Harmed','00:05:03');
 SET @song_id = last_insert_id();
 INSERT INTO track (song_id, album_id) VALUES
   (@song_id, @album_id);
