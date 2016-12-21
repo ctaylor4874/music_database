@@ -7,6 +7,7 @@
 
 # IntelliJ project files
 .idea/*
+notes.txt
 out
 gen### SublimeText template
 # cache files for sublime text
